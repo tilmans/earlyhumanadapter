@@ -1,13 +1,13 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta33.1.dtd" >
-   <PATCH nodename="C:\Users\Tilman\Dropbox\vvvv\Adern\veins\Splines.v4p" scrollx="330" scrolly="2085" systemname="Splines" filename="C:\Users\Tilman\Dropbox\vvvv\Adern\veins\Splines.v4p">
-   <BOUNDS type="Window" left="5760" top="45" width="15840" height="13455">
+   <PATCH nodename="C:\Users\EIDOTECH\Desktop\veins\Splines.v4p" scrollx="525" scrolly="0" systemname="Splines" filename="C:\Users\Tilman\Dropbox\vvvv\Adern\veins\Splines.v4p">
+   <BOUNDS type="Window" left="5715" top="825" width="15840" height="13005">
    </BOUNDS>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="14" systemname="IOBox (Value Advanced)">
    <BOUNDS type="Box" left="4140" top="465" width="795" height="240">
    </BOUNDS>
    <BOUNDS type="Node" left="4140" top="465" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="294">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="401">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
