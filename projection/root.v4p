@@ -127,9 +127,9 @@
    </PIN>
    <PIN pinname="Meditation" visible="1">
    </PIN>
-   <PIN pinname="StartLoop" visible="-1" slicecount="1" values="0" pintype="Input">
+   <PIN pinname="StartLoop" visible="-1" slicecount="1" pintype="Input" values="0">
    </PIN>
-   <PIN pinname="StopLoop" visible="-1" slicecount="1" values="0" pintype="Input">
+   <PIN pinname="StopLoop" visible="-1" slicecount="1" pintype="Input" values="0">
    </PIN>
    </NODE>
    <NODE systemname="Splines" filename="Splines.v4p" componentmode="Hidden" id="418" nodename="Splines.v4p">
@@ -194,7 +194,7 @@
    </LINK>
    <LINK srcnodeid="141" srcpinname="Meditation" dstnodeid="307" dstpinname="Go To Position">
    </LINK>
-   <NODE systemname="Renderer (EX9)" nodename="Renderer (EX9)" componentmode="Hidden" id="428">
+   <NODE systemname="Renderer (EX9)" nodename="Renderer (EX9)" componentmode="InAWindow" id="428">
    <BOUNDS type="Node" left="795" top="7200" width="100" height="100">
    </BOUNDS>
    <BOUNDS type="Box" left="795" top="7200" width="4950" height="3810">
@@ -249,7 +249,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="765" top="6540" width="4800" height="3600">
    </BOUNDS>
-   <BOUNDS type="Window" left="8745" top="2190" width="12480" height="8400">
+   <BOUNDS type="Window" left="8025" top="3960" width="12480" height="8400">
    </BOUNDS>
    <PIN pinname="Concentration" visible="1">
    </PIN>
@@ -261,11 +261,11 @@
    </PIN>
    <PIN pinname="Layer" visible="1">
    </PIN>
-   <PIN pinname="Letterbox Left" visible="-1" pintype="Input" slicecount="1" values="0.18">
+   <PIN pinname="Letterbox Left" visible="-1" pintype="Input" slicecount="1" values="0">
    </PIN>
-   <PIN pinname="Screen Scale X" visible="-1" pintype="Input" slicecount="1" values="1.55">
+   <PIN pinname="Screen Scale X" visible="-1" pintype="Input" slicecount="1" values="1.32">
    </PIN>
-   <PIN pinname="Letterbox Right" visible="-1" pintype="Input" slicecount="1" values="0.12">
+   <PIN pinname="Letterbox Right" visible="-1" pintype="Input" slicecount="1" values="0">
    </PIN>
    <PIN pinname="Scrfeeen Scale Y" visible="-1" pintype="Input" slicecount="1" values="1.95">
    </PIN>
