@@ -1,13 +1,13 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta33.3.dtd" >
    <PATCH nodename="C:\Users\Tilman\Desktop\earlyhumanadapter\projection\root.v4p" scrollx="0" scrolly="0" systemname="NaturalFlesh" filename="C:\Users\Tilman\Dropbox\vvvv\Adern\veins\NaturalFlesh.v4p">
-   <BOUNDS type="Window" left="825" top="1665" width="13425" height="8715">
+   <BOUNDS type="Window" left="570" top="690" width="13425" height="8715">
    </BOUNDS>
    <PACK Name="addonpack" Version="33.3.0">
    </PACK>
    <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="86">
-   <BOUNDS type="Node" left="780" top="2100" width="100" height="100">
+   <BOUNDS type="Node" left="720" top="2160" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="780" top="2100" width="630" height="2445">
+   <BOUNDS type="Box" left="720" top="2160" width="630" height="2445">
    </BOUNDS>
    <PIN pinname="Value Type" slicecount="1" values="Integer">
    </PIN>
@@ -21,7 +21,7 @@
    </PIN>
    <PIN pinname="Show Value" slicecount="1" values="1">
    </PIN>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" pintype="Input" values="61">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" pintype="Input" values="100">
    </PIN>
    <PIN pinname="Y Output Value" visible="1">
    </PIN>
@@ -29,7 +29,7 @@
    <NODE systemname="Thinkgear Connector V2" filename="subpatches\Thinkgear Connector V2.v4p" nodename="subpatches\Thinkgear Connector V2.v4p" componentmode="Hidden" id="141">
    <BOUNDS type="Node" left="795" top="300" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Window" left="5475" top="10545" width="19155" height="10785">
+   <BOUNDS type="Window" left="-195" top="1470" width="19155" height="10785">
    </BOUNDS>
    <PIN pinname="onBlink Bang" visible="1">
    </PIN>
@@ -55,7 +55,7 @@
    </PIN>
    <PIN pinname="Show Value" slicecount="1" values="1">
    </PIN>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" pintype="Input" values="25">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" pintype="Input" values="72">
    </PIN>
    <PIN pinname="Y Output Value" visible="1">
    </PIN>
@@ -167,9 +167,9 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="86" srcpinname="Y Output Value" dstnodeid="419" dstpinname="Attention">
-   <LINKPOINT x="1365" y="5025">
+   <LINKPOINT x="1325" y="5065">
    </LINKPOINT>
-   <LINKPOINT x="6075" y="2655">
+   <LINKPOINT x="6055" y="2675">
    </LINKPOINT>
    </LINK>
    <LINK srcnodeid="147" srcpinname="Y Output Value" dstnodeid="419" dstpinname="Meditation">
@@ -179,9 +179,9 @@
    </LINKPOINT>
    </LINK>
    <LINK srcnodeid="86" srcpinname="Y Output Value" dstnodeid="417" dstpinname="Attention">
-   <LINKPOINT x="2325" y="4880">
+   <LINKPOINT x="2285" y="4920">
    </LINKPOINT>
-   <LINKPOINT x="7035" y="535">
+   <LINKPOINT x="7015" y="555">
    </LINKPOINT>
    </LINK>
    <LINK srcnodeid="147" srcpinname="Y Output Value" dstnodeid="417" dstpinname="Meditation">
@@ -199,7 +199,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="795" top="7200" width="4950" height="3810">
    </BOUNDS>
-   <BOUNDS type="Window" left="3555" top="6960" width="7365" height="6210">
+   <BOUNDS type="Window" left="22950" top="945" width="7365" height="6210">
    </BOUNDS>
    <PIN pinname="Layers" visible="1">
    </PIN>
@@ -215,7 +215,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="7095" top="4455" width="4800" height="3600">
    </BOUNDS>
-   <BOUNDS type="Window" left="11550" top="5430" width="9000" height="6000">
+   <BOUNDS type="Window" left="4290" top="555" width="9975" height="10740">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>
@@ -244,12 +244,12 @@
    <PIN pinname="String Type" slicecount="1" values="MultiLine">
    </PIN>
    </NODE>
-   <NODE systemname="Output Adjustment" filename="subpatches\Output Adjustment.v4p" componentmode="Hidden" id="452" nodename="subpatches\Output Adjustment.v4p">
+   <NODE systemname="Output Adjustment" filename="subpatches\Output Adjustment.v4p" componentmode="InAWindow" id="452" nodename="subpatches\Output Adjustment.v4p">
    <BOUNDS type="Node" left="765" top="6540" width="100" height="100">
    </BOUNDS>
    <BOUNDS type="Box" left="765" top="6540" width="4800" height="3600">
    </BOUNDS>
-   <BOUNDS type="Window" left="8025" top="3960" width="12480" height="8400">
+   <BOUNDS type="Window" left="4485" top="3090" width="12480" height="8400">
    </BOUNDS>
    <PIN pinname="Concentration" visible="1">
    </PIN>
@@ -261,17 +261,17 @@
    </PIN>
    <PIN pinname="Layer" visible="1">
    </PIN>
-   <PIN pinname="Letterbox Left" visible="-1" pintype="Input" slicecount="1" values="0">
+   <PIN pinname="Letterbox Left" visible="-1" pintype="Input" slicecount="1" values="0.19">
    </PIN>
-   <PIN pinname="Screen Scale X" visible="-1" pintype="Input" slicecount="1" values="1.32">
+   <PIN pinname="Screen Scale X" visible="-1" pintype="Input" slicecount="1" values="1.41">
    </PIN>
-   <PIN pinname="Letterbox Right" visible="-1" pintype="Input" slicecount="1" values="0">
+   <PIN pinname="Letterbox Right" visible="-1" pintype="Input" slicecount="1" values="0.08">
    </PIN>
-   <PIN pinname="Scrfeeen Scale Y" visible="-1" pintype="Input" slicecount="1" values="1.95">
+   <PIN pinname="Scrfeeen Scale Y" visible="-1" pintype="Input" slicecount="1" values="2.25">
    </PIN>
-   <PIN pinname="TranslateX" visible="-1" pintype="Input" slicecount="1" values="-0.11">
+   <PIN pinname="TranslateX" visible="-1" pintype="Input" slicecount="1" values="0.02">
    </PIN>
-   <PIN pinname="TranslateY" visible="-1" pintype="Input" slicecount="1" values="0.02">
+   <PIN pinname="TranslateY" visible="-1" pintype="Input" slicecount="1" values="0.3">
    </PIN>
    </NODE>
    <LINK srcnodeid="147" srcpinname="Y Output Value" dstnodeid="452" dstpinname="Concentration">
@@ -316,4 +316,8 @@
    <PIN pinname="String Type" slicecount="1" values="MultiLine">
    </PIN>
    </NODE>
+   <LINK srcnodeid="307" srcpinname="Position Out" dstnodeid="147" dstpinname="Y Input Value">
+   </LINK>
+   <LINK srcnodeid="264" srcpinname="Position Out" dstnodeid="86" dstpinname="Y Input Value">
+   </LINK>
    </PATCH>

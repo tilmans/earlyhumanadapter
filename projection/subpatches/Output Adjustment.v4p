@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta33.3.dtd" >
    <PATCH nodename="C:\Users\Tilman\Desktop\earlyhumanadapter\projection\subpatches\Output Adjustment.v4p" systemname="Output Adjustment" filename="C:\Users\Tilman\Desktop\earlyhumanadapter\projection\subpatches\Output Adjustment.v4p" scrollx="435" scrolly="990">
-   <BOUNDS type="Window" left="8025" top="3960" width="12480" height="8400">
+   <BOUNDS type="Window" left="4485" top="3090" width="12480" height="8400">
    </BOUNDS>
    <PACK Name="addonpack" Version="33.3.0">
    </PACK>
@@ -93,7 +93,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="1185" top="5550" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="1.32">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="1.41">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -109,7 +109,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="2445" top="5445" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="1.95">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="2.25">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -201,7 +201,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="1185" top="6135" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.19">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -221,7 +221,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="2355" top="6150" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.08">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -245,7 +245,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="3810" top="5475" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="-0.11">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.02">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -261,7 +261,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="4875" top="5385" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.02">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.3">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -473,9 +473,9 @@
    </PIN>
    <PIN pinname="Y Output Value" visible="1">
    </PIN>
-   <PIN pinname="X Input Value" slicecount="1" values="1">
+   <PIN pinname="X Input Value" slicecount="1" values="0">
    </PIN>
-   <PIN pinname="Y Input Value" slicecount="1" values="1">
+   <PIN pinname="Y Input Value" slicecount="1" values="0">
    </PIN>
    </NODE>
    <LINK srcnodeid="59" srcpinname="Y Output Value" dstnodeid="51" dstpinname="Switch On">

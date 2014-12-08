@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta33.3.dtd" >
    <PATCH nodename="C:\Users\Tilman\Desktop\earlyhumanadapter\projection\subpatches\blurcopy.v4p" systemname="blurcopy" filename="C:\Users\Tilman\Desktop\earlyhumanadapter\projection\subpatches\blurcopy.v4p" scrollx="15" scrolly="0">
-   <BOUNDS type="Window" left="11550" top="5430" width="9000" height="6000">
+   <BOUNDS type="Window" left="4290" top="555" width="9975" height="10740">
    </BOUNDS>
    <PACK Name="addonpack" Version="33.3.0">
    </PACK>
@@ -58,6 +58,8 @@
    <BOUNDS type="Window" left="2985" top="630" width="15555" height="11685">
    </BOUNDS>
    <PIN pinname="Layers" visible="1">
+   </PIN>
+   <PIN pinname="Fullscreen Dimensions" slicecount="1" values="|1024 x 768|">
    </PIN>
    </NODE>
    <NODE systemname="Quad (DX9)" nodename="Quad (DX9)" componentmode="Hidden" id="5">
@@ -179,7 +181,7 @@
    </PIN>
    <PIN pinname="EX9 Out" visible="1">
    </PIN>
-   <PIN pinname="Fullscreen Dimensions" slicecount="1" values="AsDesktop">
+   <PIN pinname="Fullscreen Dimensions" slicecount="1" values="|1024 x 768|">
    </PIN>
    <PIN pinname="Fullscreen Antialiasing Quality Level" slicecount="1" values="4">
    </PIN>

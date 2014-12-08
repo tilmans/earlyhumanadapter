@@ -1,6 +1,6 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta33.1.dtd" >
-   <PATCH nodename="C:\Users\Tilman\Dropbox\vvvv\Adern\veins\Thinkgear Connector V2.v4p" filename="C:\Feedback\Feedback2\Thinkgear Connector V2.v4p" systemname="Thinkgear Connector V2" scrollx="0" scrolly="-360">
-   <BOUNDS height="10785" left="10110" top="4005" type="Window" width="19155">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta33.3.dtd" >
+   <PATCH nodename="C:\Users\Tilman\Desktop\earlyhumanadapter\projection\subpatches\Thinkgear Connector V2.v4p" filename="C:\Feedback\Feedback2\Thinkgear Connector V2.v4p" systemname="Thinkgear Connector V2" scrollx="0" scrolly="0">
+   <BOUNDS height="10785" left="-195" top="1470" type="Window" width="19155">
    </BOUNDS>
    <NODE componentmode="Hidden" id="20" nodename="TCP (Network Client)" systemname="TCP (Network Client String)">
    <BOUNDS height="100" left="1530" top="2985" type="Node" width="100">
@@ -1312,6 +1312,6 @@
    </LINK>
    <LINK dstnodeid="173" dstpinname="Input 2" srcnodeid="174" srcpinname="Output String">
    </LINK>
-   <PACK Name="addonpack" Version="33.0.0">
+   <PACK Name="addonpack" Version="33.3.0">
    </PACK>
    </PATCH>

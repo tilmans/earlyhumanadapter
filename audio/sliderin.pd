@@ -1,12 +1,12 @@
-#N canvas 586 107 626 637 10;
+#N canvas 692 117 626 637 10;
 #X declare -lib mrpeach;
 #X obj 44 70 unpackOSC;
 #X obj 44 31 udpreceive 9100;
 #X obj 109 208 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 0 1;
+-1 -1 5700 1;
 #X obj 257 68 unpackOSC;
 #X obj 323 170 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 0 1;
+-1 -1 9000 1;
 #X obj 257 29 udpreceive 9101;
 #X obj 48 104 unpack s f;
 #X obj 261 102 unpack s f;
@@ -47,11 +47,11 @@
 #X obj 447 529 *~ 0.1;
 #X obj 250 664 dac~;
 #X obj 264 272 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 0 1;
+-1 -1 10000 1;
 #X obj 44 6 import mrpeach;
 #X obj 433 23 loadbang;
 #X msg 438 66 \; pd dsp 1;
-#X obj 250 612 *~ 0.07;
+#X obj 250 612 *~ 0.03;
 #X connect 0 0 6 0;
 #X connect 1 0 0 0;
 #X connect 2 0 44 0;
